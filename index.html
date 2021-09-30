@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ephesis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="scores"></div>
+
+    <div class="timer"> Timer: <span id="time">0</span></div>
+
+    <div class="wrapper">
+        <div id="start-screen" class="start">
+
+            <h1> Challenge Your Brain Quiz</h1>
+            <p>
+                Try to answer the following thinking game by challenging your brain to answer to these easy riddles within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+            </p>
+            <button id="startQuiz"> Start Quiz</button>
+
+        </div>
+    </div>
+
+    <div id="questions" class="hide">
+        <h2 id="title"></h2>
+        <div id="user-choice"></div>
+    </div>
+
+    <div id="end-screen" class="hide">
+        <h2> All done!</h2>
+        <p> Your final score is
+            <span id="final-score"></span></p>
+
+
+        <p>Enter initials :
+            <input type="text" id="initials" max="3" />
+            <button id="submit"> Submit</button>
+
+        </p>
+    </div>
+
+    <div id="feedback" class="feedback hide"></div>
+    </div>
+    <script src="./assets/js/logic.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</body>
+
+</html>
