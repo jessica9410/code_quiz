@@ -18,7 +18,6 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-
 ## Setup/Installation Requirements
 
 - Cloned this repository.
@@ -38,10 +37,10 @@ JavaScript
 
 ## Contribution Guidlines
 
-Direct link to site:
+Direct link to site: https://jessica9410.github.io/code_quiz/
 
 ### License
 
 Copyright(c) 2021 Jessica Galarza
 
-This software is licensed under MIT license.
+Â© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
