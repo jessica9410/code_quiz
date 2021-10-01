@@ -6,6 +6,7 @@
 
 ## Description
 
+
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -22,6 +23,9 @@ THEN I can save my initials and my score
 
 - Cloned this repository.
 - Opened both repositories in Github or terminal.
+## screenshot
+
+![Screenshot (82)](https://user-images.githubusercontent.com/87554644/135556107-5b794201-2338-4190-b4ab-b575a4f47fd0.png)
 
 ## Support and contact details
 
@@ -34,6 +38,8 @@ HTML
 CSS
 
 JavaScript
+
+Google
 
 ## Contribution Guidlines
 
