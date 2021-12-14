@@ -1,76 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz</title>
-
+    <title>Code Quiz</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ephesis&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
-    <div class="scores">
-        <a id="highscores-link">View high scores</a>
-    </div>
-
-    <div class="timer"> Timer: <span id="time">15</span>
-    </div>
-
-    <div class="wrapper">
-        <div id="start-screen" class="start">
-
-            <h1> Challenge Your Brain Quiz</h1>
-            <p>
-                Try to answer the following thinking game by challenging your brain to answer to these easy riddles within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
-            </p>
-            <button id="startQuiz"> Start Quiz</button>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1>Code Quiz</h1>
+            <a class="btn" href="/game.html">Play</a>
+            <a class="btn" href="/highscores.html">High Scores</a>
         </div>
     </div>
-
-    <div id="questions">
-        <h2 id="title"></h2>
-        <div id="user-choice" class="btn-grid ">
-
-        </div>
-
-
-        <div id="end-screen" class="hide">
-            <h2> All done!</h2>
-            <p> Your final score is
-                <span id="final-score"></span></p>
-
-            <div>
-                <section id="score-container" class="hide">
-                    <form id="submit-form">
-                        <h3 id="your-score"></h3>
-                        <label id="initials-label"> Enter you initials to save the score:</label>
-                        <input type="text" id="initials-field" maxlength="3" placeholder="Enter your initials" />
-                        <button id="submit-btn"> Submit</button>
-                    </form>
-                </section>
-                <section id="highscores" class="highscores-container hide">
-                    <div id="high-scores">
-                        <h1 class="centered">Leaderboard</h1>
-                        <div id="highscore" class="highscore highscore-list">
-                        </div>
-
-
-                        <div class="controls">
-                            <button id="restart-btn">Restart</button>
-                            <button id="clear-btn">Clear Scores</button>
-                        </div>
-                    </div>
-
-                </section>
-                <script src="./assets/js/logic.js"></script>
-                <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-                <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
 </body>
-
 </html>
