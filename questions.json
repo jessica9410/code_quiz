@@ -1,0 +1,36 @@
+ [
+    {
+      "question":
+        "Skinny and of common stock; afraid of scissors but not of rock. What am I?",
+      "choice1": "tree",
+      "choice2": "paper",
+     " choice3": "plastic",
+      "choice4": "rocks",
+      "answer": 2
+    },
+    {
+      "question": "What goes up and down the stairs without moving?",
+      "choice1": "feather",
+      "choice2": "ghost",
+     " choice3": "carpet",
+      "choice4": "fly",
+      "answer": 3
+    },
+    {
+      "question":
+        "If a hen and a half lay an egg and a half in a a day and a half, how many eggs will half a dozen hens lay in half a dozen days?",
+      "choice1": "400",
+      "choice2": "2",
+     " choice3": "two",
+      "choice4": "two dozen",
+      "answer": 4
+    },
+    {
+      "question": "Im tall when I'm young, and I'm short when I'm old, What am I?",
+      "choice1": "flower",
+      "choice2": "tree",
+     " choice3": "a candle",
+      "choice4": "brain",
+      "answer": 3
+    }
+  ]
