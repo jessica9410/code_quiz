@@ -25,6 +25,9 @@ THEN I can save my initials and my score
 ----------------------
 ![codequiz](https://user-images.githubusercontent.com/87554644/146280415-3dee23cc-29e3-47ac-aa7c-0792514d9ca2.jpg)
 
+[Click to follow link.](http://127.0.0.1:5500/index.html)
+
+
 ## Support and contact details
 ----------------------------------
 
