@@ -1,3 +1,4 @@
+
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
@@ -46,6 +47,9 @@ let questions = [
   },
 ];
 
+
+
+
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
@@ -72,7 +76,7 @@ getNewQuestion = () => {
   currentQuestion = availableQuesions[questionIndex];
   question.innerText = currentQuestion.question;
 
-  choices.forEach((choice) => {
+  choices.forEach(choice => {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
   });
@@ -81,8 +85,8 @@ getNewQuestion = () => {
   acceptingAnswers = true;
 };
 
-choices.forEach((choice) => {
-  choice.addEventListener("click", (e) => {
+choices.forEach(choice => {
+  choice.addEventListener("click", e => {
     if (!acceptingAnswers) return;
 
     acceptingAnswers = false;
@@ -105,7 +109,7 @@ choices.forEach((choice) => {
   });
 });
 
-incrementScore = (num) => {
+incrementScore = num => {
   score += num;
   scoreText.innerText = score;
 };
